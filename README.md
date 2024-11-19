@@ -22,6 +22,13 @@
 - Add harcorded values to the constant
 - Register for TMDB API & create an aap & get access token
 - make the api call
+- Custom hooks for now playing movies
+- update store with movies data
+- Planning for main container an secondary container
+- fetch data for trailer video
+- update store with trailer videodata
+- embedded the youtune video and make it autoplay and mute
+- Add tailwind css to make Main container awesome
 
 # Features
 
