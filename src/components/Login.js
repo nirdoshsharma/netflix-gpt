@@ -10,6 +10,7 @@ import { auth } from "../utils/firebase";
 import { updateProfile } from "firebase/auth";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
+import { BACKGROUND_IMAGE } from "../utils/constant";
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
@@ -88,10 +89,7 @@ const Login = () => {
     <div>
       <Header />
       <div className="absolute">
-        <img
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/03ad76d1-e184-4d99-ae7d-708672fa1ac2/web/IN-en-20241111-TRIFECTA-perspective_149877ab-fcbd-4e4f-a885-8d6174a1ee81_large.jpg"
-          alt="logo"
-        />
+        <img src={BACKGROUND_IMAGE} alt="logo" />
       </div>
       <form
         onSubmit={(e) => {

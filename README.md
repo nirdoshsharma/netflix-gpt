@@ -29,6 +29,15 @@
 - update store with trailer videodata
 - embedded the youtune video and make it autoplay and mute
 - Add tailwind css to make Main container awesome
+- Build Movie list
+- Build Movie Card
+- TMDB image CDN url
+- Made the browse page Amazing with tailwind CSS
+- Use Popular Movies custom hook
+- GPT search page
+- GPT search bar
+- (\*)Added Multi language feature in our APP
+- Intigrate GPT Apis
 
 # Features
 
